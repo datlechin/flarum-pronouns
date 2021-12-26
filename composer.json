@@ -1,0 +1,41 @@
+{
+    "name": "datlechin/flarum-pronouns",
+    "description": "Add pronouns to user profiles and user cards.",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "support": {
+        "issues": "https://github.com/datlechin/flarum-pronouns/issues",
+        "source": "https://github.com/datlechin/flarum-pronouns",
+        "forum": "https://discuss.flarum.org/d/"
+    },
+    "homepage": "https://vieit.net",
+    "authors": [
+        {
+            "name": "Ngo Quoc Dat",
+            "email": "datlechin@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Datlechin\\Pronouns\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Personal Pronouns",
+            "category": "",
+            "icon": {
+                "name": "fas fa-chess-queen",
+                "backgroundColor": "#D3241C",
+                "color": "#fff"
+            }
+        }
+    }
+}
